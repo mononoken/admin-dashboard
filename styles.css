@@ -38,7 +38,7 @@ body {
 }
 
 .logo > *,
-li > * {
+li * {
   vertical-align: middle;
 }
 
@@ -51,12 +51,17 @@ li > * {
   font-size: 1.5rem;
 }
 
-li > svg {
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a > svg {
   height: 1.2rem;
   padding: 0 calc((2.5rem - 1.2rem) / 2);
 }
 
-.sidebar span {
+.sidebar a {
   font-size: 1.1rem;
 }
 
