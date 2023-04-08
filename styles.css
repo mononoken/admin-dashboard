@@ -28,7 +28,7 @@ body {
   font-family: "Roboto", sans-serif;
 
   display: grid;
-  grid-template-rows: 152px 1fr;
+  grid-template-rows: 176px 1fr;
   grid-template-columns: 280px 1fr;
   grid-template-areas:
     "sidebar navbar"
@@ -60,7 +60,7 @@ svg {
 }
 
 img {
-  height: 1.4rem;
+  height: 64px;
 }
 
 .logo svg {
@@ -86,6 +86,7 @@ a > svg {
 }
 
 hr {
+  size: 1px;
   width: 100%;
   color: var(--gray);
 }
@@ -147,6 +148,11 @@ form {
   grid-area: profile;
 }
 
+.user-bar img {
+  width: 48px;
+  height: 48px;
+}
+
 .greeting-bar {
   grid-area: greeting;
 }
@@ -164,9 +170,10 @@ form * {
 }
 
 button {
-  width: 90px;
+  width: 120px;
   background-color: var(--blue);
   color: white;
+  font-size: 1.1rem;
   font-weight: bold;
   padding: 10px 20px;
   border: none;
@@ -287,6 +294,10 @@ form svg {
   font-size: 1.1rem;
 }
 
+.project-card img {
+  height: 24px;
+}
+
 .card-buttons {
   display: flex;
   justify-content: end;
@@ -295,7 +306,14 @@ form svg {
 
 .announcements-container {
   display: grid;
+  grid-template-rows: 1fr 1px 1fr 1px 1fr;
   gap: 16px;
+}
+
+.announcements-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 .announcement-summary {
@@ -317,7 +335,7 @@ form svg {
   white-space: nowrap;
 
   display: grid;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: 64px 1fr;
   grid-template-rows: repeat(2, 1rem);
   grid-template-areas:
     "profile-pic username"
@@ -329,6 +347,8 @@ form svg {
 .trending-account img {
   grid-area: profile-pic;
 
+  width: 48px;
+  height: 48px;
   align-self: center;
 }
 
