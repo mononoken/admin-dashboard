@@ -10,6 +10,7 @@
   --navbar-bg: white;
   --navbar-font: black;
   --navbar-button: #1992d4;
+  --navbar-button-hover: #0f557b;
   --navbar-button-font: white;
   --navbar-symbol: black;
   --navbar-search: #e2e8f0;
@@ -205,6 +206,14 @@ button:hover {
   background-color: transparent;
   padding: 0;
   border-radius: 0;
+}
+
+.project-buttons button:hover {
+  box-shadow: 4px 4px var(--card-shadow);
+}
+
+.project-buttons button:active {
+  background-color: var(--navbar-button-hover, #0f557b);
 }
 
 .card svg {
