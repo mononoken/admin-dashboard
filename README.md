@@ -21,6 +21,8 @@ This project is the final project of the intermediate HTML and CSS section of Th
 - [The Odin Project](https://www.theodinproject.com), my primary guide in the vast sea of web-development learning.
   - For providing this project idea ([see the instructions for this assignment here](https://www.theodinproject.com/lessons/intermediate-html-and-css-admin-dashboard))
   - And the Discord community!
+- [Pictogrammers](https://pictogrammers.com/library/mdi/) for the svg symbols.
+- [ICONS8](https://icons8.com/icons/set/avatar) for the avatar profile pics.
 
 ## Reporting Issues/Feedback/Contact
 
